@@ -3,12 +3,12 @@ entries:
   argo:
   - apiVersion: v1
     appVersion: v2.12.5
-    created: "2021-08-06T15:24:12.780573942Z"
+    created: "2021-08-10T01:29:00.085287365Z"
     description: Argo Helm Chart
-    digest: 50c0271508ba52805395b25cb6f023d92ceddab8c6209b50bb8ee0b5ebc60113
+    digest: c20b2c1961c5be71c7b976f2428abfd0a62387ed043df00422d621864dfe5237
     name: argo
     urls:
-    - https:///jaesang.github.io/helm-repo/argo-1.1.0.tgz
+    - https://jaesang.github.io/helm-repo/argo-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v1
     appVersion: "1.0"
@@ -79,12 +79,12 @@ entries:
   cloud-console:
   - apiVersion: v1
     appVersion: 1.0.4
-    created: "2021-08-06T15:24:12.781454554Z"
+    created: "2021-08-10T01:29:00.086028769Z"
     description: Monitoring Dashboard for Tacoplay
-    digest: 4ceaba0bb07b28b12eb5ba151898a7e836c78743d389bb293ca4d17a3e19d28f
+    digest: d1e3d68c31c76c69dc7c2390ca96bb14200190a8bb8cfe27a38634d7b523e85c
     name: cloud-console
     urls:
-    - https:///jaesang.github.io/helm-repo/cloud-console-1.0.7.tgz
+    - https://jaesang.github.io/helm-repo/cloud-console-1.0.7.tgz
     version: 1.0.7
   - apiVersion: v1
     appVersion: 1.0.0
@@ -98,14 +98,14 @@ entries:
   cluster-api-aws:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2021-08-06T15:24:12.781880859Z"
+    created: "2021-08-10T01:29:00.086432271Z"
     description: A chart to install Kubernetes cluster using Cluster API Provider
       AWS
-    digest: 328da7817030a36ddae3e7da8919b9b3c2c3d8872d98160771639d18ad6edfbf
+    digest: 0cc286549d0e607ea34bf0e640d62f7f1d062dd0659b62a77ee0ded099ddcdf7
     name: cluster-api-aws
     type: application
     urls:
-    - https:///jaesang.github.io/helm-repo/cluster-api-aws-0.1.1.tgz
+    - https://jaesang.github.io/helm-repo/cluster-api-aws-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.0.1
@@ -121,14 +121,14 @@ entries:
   cluster-api-openstack:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2021-08-06T15:24:12.786726524Z"
+    created: "2021-08-10T01:29:00.090302693Z"
     dependencies:
     - name: helm-toolkit
       repository: https://openinfradev.github.io/helm-repo
       version: '>= 0.1.0'
     description: Install Cluster API Provider OpenStack manifests to generate a fully
       working Kubernetes cluster
-    digest: a8a0deac4abf37d1e0f9cd55d8333a44037aa3ffcb5f95b8ee9d399cf85559cc
+    digest: 85e7742b366081cc02918ef675a6d56fadb7c3b244a97109c2b7831c253e5153
     keywords:
     - clusterapi
     - provisioning
@@ -140,55 +140,55 @@ entries:
     name: cluster-api-openstack
     type: application
     urls:
-    - https:///jaesang.github.io/helm-repo/cluster-api-openstack-1.0.0.tgz
+    - https://jaesang.github.io/helm-repo/cluster-api-openstack-1.0.0.tgz
     version: 1.0.0
   cronjob-backup-cloudconsole:
   - apiVersion: v2
-    created: "2021-08-06T15:24:12.787265132Z"
+    created: "2021-08-10T01:29:00.090763596Z"
     description: A cronjob helm chart for backup cloud-console
-    digest: ef2408330b3eb808c8986e3229a8288aa7fa57975e1c7c2103fb0a0b04b21a9d
+    digest: 9218f0094d7a8d60bce51eed25c4ba8a462ffaf788ab6cc831cd04b3449f73ad
     name: cronjob-backup-cloudconsole
     urls:
-    - https:///jaesang.github.io/helm-repo/cronjob-backup-cloudconsole-1.0.0.tgz
+    - https://jaesang.github.io/helm-repo/cronjob-backup-cloudconsole-1.0.0.tgz
     version: 1.0.0
   cronjob-backup-jenkins:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-08-06T15:24:12.787569536Z"
+    created: "2021-08-10T01:29:00.091049597Z"
     description: A Helm chart for Kubernetes
-    digest: e0a068bab393ac338b0cf0c074e93e0cb15e55db271e245d2364ad081bca92da
+    digest: a4f58e8933981fd6cc35e1565d1f3f57904f428470370c62a66448cfa458183d
     name: cronjob-backup-jenkins
     urls:
-    - https:///jaesang.github.io/helm-repo/cronjob-backup-jenkins-1.0.0.tgz
+    - https://jaesang.github.io/helm-repo/cronjob-backup-jenkins-1.0.0.tgz
     version: 1.0.0
   cronjob-backup-keycloak:
   - apiVersion: v2
-    created: "2021-08-06T15:24:12.788216344Z"
+    created: "2021-08-10T01:29:00.0916029Z"
     description: A cronjob helm chart for backup realm in keycloak
-    digest: ea43e644bbb31f9ae4fab35b7576bf769448c81a997953bcd09f2323d6c38598
+    digest: 549d9bfad78f6d479ba575e7d3f2b269901f49425ef34ee1533478c6d9aac134
     name: cronjob-backup-keycloak
     urls:
-    - https:///jaesang.github.io/helm-repo/cronjob-backup-keycloak-1.0.2.tgz
+    - https://jaesang.github.io/helm-repo/cronjob-backup-keycloak-1.0.2.tgz
     version: 1.0.2
   custom-network:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-08-06T15:24:12.788682251Z"
+    created: "2021-08-10T01:29:00.092039103Z"
     description: A Helm chart for Kubernetes
-    digest: 63b37769612610f47279baebe42784a86ae7fa9c7b5eba28fbbc096123ac27b1
+    digest: 41e484b7ca6fd8bf768337d5bced580aec63ba8b009e0eece27eabcddfcf02cf
     name: custom-network
     urls:
-    - https:///jaesang.github.io/helm-repo/custom-network-1.0.10.tgz
+    - https://jaesang.github.io/helm-repo/custom-network-1.0.10.tgz
     version: 1.0.10
   eck-resource:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-08-06T15:24:12.789296959Z"
+    created: "2021-08-10T01:29:00.092903008Z"
     description: Deploy resources of eck operator
-    digest: 336581579200883b09d64f2e5db5fffb8c10abfa57e071031eb8cfa804863287
+    digest: 29d0653691ec5d736d6456f85d3c111728b25b8b2ac6794b68ef9668a2e3f211
     name: eck-resource
     urls:
-    - https:///jaesang.github.io/helm-repo/eck-resource-1.1.1.tgz
+    - https://jaesang.github.io/helm-repo/eck-resource-1.1.1.tgz
     version: 1.1.1
   - apiVersion: v1
     appVersion: "1.0"
@@ -220,20 +220,20 @@ entries:
   elasticsearch-operator:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-08-06T15:24:12.790693078Z"
+    created: "2021-08-10T01:29:00.09507522Z"
     description: A Helm chart for Kubernetes
-    digest: a43f1bd1437218f29b4eb30af56a7a1d3eb577400545090dfc1c3a4444f2f7e7
+    digest: a92cf5063da206668cd13562df68950069c3dfcc66708e6f4e87f9ce599a6ca4
     name: elasticsearch-operator
     urls:
-    - https:///jaesang.github.io/helm-repo/elasticsearch-operator-1.0.3.tgz
+    - https://jaesang.github.io/helm-repo/elasticsearch-operator-1.0.3.tgz
     version: 1.0.3
   fluentbit-operator:
   - apiVersion: v1
     appVersion: 1.4.5-skt
-    created: "2021-08-06T15:24:12.793281012Z"
+    created: "2021-08-10T01:29:00.097500633Z"
     description: Provide easy log collecting definition for kubernetes pods and their
       hosts, and management of fluentbit
-    digest: 40b96c83718f1ccfb4ff68c9c510e352b0f1ee18c746463ee1b24435c5495274
+    digest: 800b41dacc4cba4499429db54c654cc8ae6be4eba3ec7e94fd84bdfe6f653a41
     icon: https://dashboard.snapcraft.io/site_media/appmedia/2020/02/logo-square.png
     keywords:
     - fluentbit
@@ -246,7 +246,7 @@ entries:
     sources:
     - https://github.com/intelliguy/fluentbit-operator
     urls:
-    - https:///jaesang.github.io/helm-repo/fluentbit-operator-1.0.10.tgz
+    - https://jaesang.github.io/helm-repo/fluentbit-operator-1.0.10.tgz
     version: 1.0.10
   - apiVersion: v1
     appVersion: 1.4.5-skt
@@ -420,9 +420,9 @@ entries:
     version: 2.21.2
   - apiVersion: v1
     appVersion: 1.21.2
-    created: "2021-08-06T15:24:12.79388492Z"
+    created: "2021-08-10T01:29:00.098042536Z"
     description: jaeger-operator Helm chart for Kubernetes
-    digest: 0aa3978d0a6a0c0f3bbeddba0b84125ec50a03807f2b476dd28f6f139f8888a9
+    digest: bbf057d7fe33b9272dbb0d4197abf09e792ac32f822cdd0027bb030f0f7ad450
     home: https://www.jaegertracing.io/
     icon: https://www.jaegertracing.io/img/jaeger-icon-reverse-color.svg
     maintainers:
@@ -434,12 +434,12 @@ entries:
     sources:
     - https://github.com/jaegertracing/jaeger-operator
     urls:
-    - https:///jaesang.github.io/helm-repo/jaeger-operator-2.20.0.tgz
+    - https://jaesang.github.io/helm-repo/jaeger-operator-2.20.0.tgz
     version: 2.20.0
   keycloak:
   - apiVersion: v1
     appVersion: 10.0.0
-    created: "2021-08-06T15:24:12.801731826Z"
+    created: "2021-08-10T01:29:00.104513173Z"
     dependencies:
     - condition: keycloak.persistence.deployPostgres
       name: postgresql
@@ -447,7 +447,7 @@ entries:
       version: 8.9.5
     description: Open Source Identity and Access Management For Modern Applications
       and Services
-    digest: 644e0f42db9fd67e1f0c3bbfab9eff365279d3090f204280fb0951ae4b513ec9
+    digest: 8fdddd04cc160b25538d23a14fa991f31c5c2549b382822c03cbc65f56106728
     home: https://www.keycloak.org/
     icon: https://www.keycloak.org/resources/images/keycloak_logo_480x108.png
     keywords:
@@ -467,7 +467,7 @@ entries:
     - https://github.com/codecentric/helm-charts
     - https://github.com/jboss-dockerfiles/keycloak
     urls:
-    - https:///jaesang.github.io/helm-repo/keycloak-8.2.2-skt03.tgz
+    - https://jaesang.github.io/helm-repo/keycloak-8.2.2-skt03.tgz
     version: 8.2.2-skt03
   keystone:
   - apiVersion: v1
@@ -492,9 +492,9 @@ entries:
   kubernetes-addons:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2021-08-06T15:24:12.803040043Z"
+    created: "2021-08-10T01:29:00.106176182Z"
     description: Install Kubernetes addons for completing cluster setup
-    digest: 6a9766534d72417c228631e506b3f38924777de504efa3fb5e7fed927aaee034
+    digest: 6eddc9c5be86560540b4b0d2c8b1b50ff0509b40fd245f1ddb83f48c8a95c545
     keywords:
     - kubernetes
     - bootstrapping
@@ -506,18 +506,18 @@ entries:
     name: kubernetes-addons
     type: application
     urls:
-    - https:///jaesang.github.io/helm-repo/kubernetes-addons-0.1.0.tgz
+    - https://jaesang.github.io/helm-repo/kubernetes-addons-0.1.0.tgz
     version: 0.1.0
   kubernetes-event-exporter:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-08-06T15:24:12.803425848Z"
+    created: "2021-08-10T01:29:00.106541184Z"
     description: A Helm chart for Kubernetes
-    digest: 2e4160988ffb85c1ae1543965109b0cccb070d8d685f9a204bc633b1d1093d1a
+    digest: 454fad4204f2b37cee2ca31bd371cd2e1c412ff4d07d3cb70e177078a8472271
     name: kubernetes-event-exporter
     type: application
     urls:
-    - https:///jaesang.github.io/helm-repo/kubernetes-event-exporter-1.0.0.tgz
+    - https://jaesang.github.io/helm-repo/kubernetes-event-exporter-1.0.0.tgz
     version: 1.0.0
   libvirt:
   - apiVersion: v1
@@ -541,12 +541,12 @@ entries:
   lma-addons:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-08-06T15:24:12.811189653Z"
+    created: "2021-08-10T01:29:00.113574623Z"
     description: Kubernetes Resources for TACO Project
-    digest: 4464ee5cf6b13b11783e884e234a5236b74abf404ae5ea00d46ffce072b85f4a
+    digest: 503661c7e537d023ce6bf8c1184498448a49d683dbee5fd3f2cad7e299cf0f7d
     name: lma-addons
     urls:
-    - https:///jaesang.github.io/helm-repo/lma-addons-1.6.0.tgz
+    - https://jaesang.github.io/helm-repo/lma-addons-1.6.0.tgz
     version: 1.6.0
   - apiVersion: v1
     appVersion: "1.0"
@@ -756,23 +756,23 @@ entries:
   prepare-decapod-controller:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2021-08-06T15:24:12.811392755Z"
+    created: "2021-08-10T01:29:00.113870125Z"
     description: Chart for decapod-controller preparation such as DB secret creation
-    digest: 5d4059990c8e266a9b332af8b79c407b9314866c497c6fcec36391fe7061e71b
+    digest: 1449c61b53c61308f34277ec1e6903c8288ae4392bad0ebcf127eefe42aba334
     name: prepare-decapod-controller
     urls:
-    - https:///jaesang.github.io/helm-repo/prepare-decapod-controller-0.1.0.tgz
+    - https://jaesang.github.io/helm-repo/prepare-decapod-controller-0.1.0.tgz
     version: 0.1.0
   prepare-etcd-secret:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2021-08-06T15:24:12.811685659Z"
+    created: "2021-08-10T01:29:00.114180927Z"
     description: create etcd secret for prometheus
-    digest: 3ef4479dd6773ab3c14dece770f23c09ee645972e1ff3448464dc76788005b25
+    digest: 712611eb258fca030c4ed167f7f86a4b23a5f423dba1438260ad980ccb117bab
     name: prepare-etcd-secret
     type: application
     urls:
-    - https:///jaesang.github.io/helm-repo/prepare-etcd-secret-0.1.1.tgz
+    - https://jaesang.github.io/helm-repo/prepare-etcd-secret-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.0
@@ -850,12 +850,12 @@ entries:
   rook-ceph-cluster:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-08-06T15:24:12.812175266Z"
+    created: "2021-08-10T01:29:00.114631929Z"
     description: Chart for Rook Ceph cluster deployment
-    digest: f61b482c2ed2ad3f466f46931db9c6bef73da8add6f3679bc959592cbfda5e52
+    digest: f659665320fe177fcf090cdf931ea779b6f3a3670ab60827e9713d9422f727a0
     name: rook-ceph-cluster
     urls:
-    - https:///jaesang.github.io/helm-repo/rook-ceph-cluster-0.0.3.tgz
+    - https://jaesang.github.io/helm-repo/rook-ceph-cluster-0.0.3.tgz
     version: 0.0.3
   - apiVersion: v1
     appVersion: "1.0"
@@ -878,23 +878,23 @@ entries:
   sample-hpa-app:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-08-06T15:24:12.812394569Z"
+    created: "2021-08-10T01:29:00.114845431Z"
     description: A Helm chart for Kubernetes
-    digest: 37f884a26d775f8f24b7be9124461945c0e11f1ad40da1b6dcc0533f4b8f77ad
+    digest: d9b4f989ef24c49a3d2db14f918d325e075de704dd845027907526dd4cf44d66
     name: sample-hpa-app
     urls:
-    - https:///jaesang.github.io/helm-repo/sample-hpa-app-0.1.0.tgz
+    - https://jaesang.github.io/helm-repo/sample-hpa-app-0.1.0.tgz
     version: 0.1.0
   service-mesh-resource:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-08-06T15:24:12.812705673Z"
+    created: "2021-08-10T01:29:00.116068037Z"
     description: A chart for the additional k8s resources related to service mesh
-    digest: f5345cd9d21cb3abef0cf3a4afdb3cb7d9d09308fcbd15b30178ed84b63cf740
+    digest: c6058d7784fb6a2e7a8d52d237b2af833b5e306d02c68ea5c13dc1dce6bffd10
     name: service-mesh-resource
     type: application
     urls:
-    - https:///jaesang.github.io/helm-repo/service-mesh-resource-0.3.0.tgz
+    - https://jaesang.github.io/helm-repo/service-mesh-resource-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.16.0
@@ -959,35 +959,35 @@ entries:
   servicemesh-grafana-dashboard:
   - apiVersion: v2
     appVersion: 1.9.1
-    created: "2021-08-06T15:24:12.813861188Z"
+    created: "2021-08-10T01:29:00.117394345Z"
     description: A chart for the additional grafana dashboard related to service mesh
-    digest: ac9f5570555d22f2f7038c4951e51065b34a475169467a54ba21390d56e1056e
+    digest: e3aaad94d70bfe03110fa8c985e05fabc0d7c0015b1c065e17e44a967f996755
     name: servicemesh-grafana-dashboard
     type: application
     urls:
-    - https:///jaesang.github.io/helm-repo/servicemesh-grafana-dashboard-1.7.0.tgz
+    - https://jaesang.github.io/helm-repo/servicemesh-grafana-dashboard-1.7.0.tgz
     version: 1.7.0
   servicemesh-istio-resource:
   - apiVersion: v2
     appVersion: 1.9.1
-    created: "2021-08-06T15:24:12.814420196Z"
+    created: "2021-08-10T01:29:00.11833805Z"
     description: A chart for the additional k8s resources related to service mesh
-    digest: ca1e03f1ebb701903492e6c78ae413dec49f7bbb55a243bd22f869cc5c84fe5a
+    digest: 44a71fba7f7c5943b14e18d9bb69c4ba2c53c213f03e242ecb889b26d2323c44
     name: servicemesh-istio-resource
     type: application
     urls:
-    - https:///jaesang.github.io/helm-repo/servicemesh-istio-resource-1.7.0.tgz
+    - https://jaesang.github.io/helm-repo/servicemesh-istio-resource-1.7.0.tgz
     version: 1.7.0
   servicemesh-jaeger-resource:
   - apiVersion: v2
     appVersion: 1.22.1
-    created: "2021-08-06T15:24:12.814782301Z"
+    created: "2021-08-10T01:29:00.118697852Z"
     description: A chart for jaeger resource related to service mesh
-    digest: b430bff8ed8a0b7477ad29f465b496fb45b98f950cf961d8d95e0be16c4311bf
+    digest: c217f75802ac4ba7c9f4f380d918744d6ea0e877c47abf6d5c33b664e8d131aa
     name: servicemesh-jaeger-resource
     type: application
     urls:
-    - https:///jaesang.github.io/helm-repo/servicemesh-jaeger-resource-2.21.2.tgz
+    - https://jaesang.github.io/helm-repo/servicemesh-jaeger-resource-2.21.2.tgz
     version: 2.21.2
   servicemesh-kiali-resource:
   - apiVersion: v2
@@ -1002,45 +1002,45 @@ entries:
     version: 1.35.0
   - apiVersion: v2
     appVersion: v1.34.0
-    created: "2021-08-06T15:24:12.815236007Z"
+    created: "2021-08-10T01:29:00.119235455Z"
     description: A chart for kiali resource related to service mesh
-    digest: 9d6f0463480aec07dde10673df0046ea26e8957e42df65190c755bc626f3be08
+    digest: cb18950a7b1161a6bfb6323366d20fcffb0c8fa969be78b649d3c6757e0a8e53
     name: servicemesh-kiali-resource
     type: application
     urls:
-    - https:///jaesang.github.io/helm-repo/servicemesh-kiali-resource-1.34.0.tgz
+    - https://jaesang.github.io/helm-repo/servicemesh-kiali-resource-1.34.0.tgz
     version: 1.34.0
   servicemesh-prometheusmonitor:
   - apiVersion: v2
     appVersion: 1.9.1
-    created: "2021-08-06T15:24:12.815429809Z"
+    created: "2021-08-10T01:29:00.119537657Z"
     description: A chart for the additional servicemonitor related to service mesh
-    digest: 7c63031538d2cfd2a3aee30e458ad904413fcf39b48ffea0547c39230fde0276
+    digest: 490927a77841fb704faa96961a83b6785ac0e7c492a66192701c9f22c3f8e660
     name: servicemesh-prometheusmonitor
     type: application
     urls:
-    - https:///jaesang.github.io/helm-repo/servicemesh-prometheusmonitor-1.7.0.tgz
+    - https://jaesang.github.io/helm-repo/servicemesh-prometheusmonitor-1.7.0.tgz
     version: 1.7.0
   servicemesh-prometheusrule:
   - apiVersion: v2
     appVersion: 1.9.1
-    created: "2021-08-06T15:24:12.815616912Z"
+    created: "2021-08-10T01:29:00.119756758Z"
     description: A chart for the additional prometheusrule related to service mesh
-    digest: 692dde291142ec8b8bf772ab24aae509d8970eef142ca8ae61064adb1f53f148
+    digest: 2a677c5b6026cd2912a4cf10d50b5f97c61f5671a0daadb493d4cac6c0001b5b
     name: servicemesh-prometheusrule
     type: application
     urls:
-    - https:///jaesang.github.io/helm-repo/servicemesh-prometheusrule-1.7.0.tgz
+    - https://jaesang.github.io/helm-repo/servicemesh-prometheusrule-1.7.0.tgz
     version: 1.7.0
   site-mirror-registry:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-08-06T15:24:12.815934716Z"
+    created: "2021-08-10T01:29:00.12011316Z"
     description: docker registry for site mirroring
-    digest: 023a4cafb832c71760a5e82d317e36e416f65dbf18dd4af4e2cbd6423de54a9e
+    digest: e1db3886ff815c1cc5d88dd9da4bf4303c52c0350ec36696406f82e479b7dc18
     name: site-mirror-registry
     urls:
-    - https:///jaesang.github.io/helm-repo/site-mirror-registry-0.0.3.tgz
+    - https://jaesang.github.io/helm-repo/site-mirror-registry-0.0.3.tgz
     version: 0.0.3
   sona:
   - apiVersion: v1
@@ -1060,31 +1060,31 @@ entries:
   taco-registry:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-08-06T15:24:12.817058931Z"
+    created: "2021-08-10T01:29:00.121128066Z"
     description: A Helm chart for Kubernetes
-    digest: a00f4d86dbe98aa4a0252990e410d8b142ddb152746a7e00ada1237e04212a57
+    digest: b22276611badb1e83e2f6f343f62de3d77edc49053be772a869470863f584fd9
     name: taco-registry
     urls:
-    - https:///jaesang.github.io/helm-repo/taco-registry-1.0.6.tgz
+    - https://jaesang.github.io/helm-repo/taco-registry-1.0.6.tgz
     version: 1.0.6
   taco-watcher:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-08-06T15:24:12.817613439Z"
+    created: "2021-08-10T01:29:00.121731069Z"
     description: Monitoring Dashboard for Tacoplay
-    digest: ca2061c9308abbf6f6e85960eb41e95e6018e9a8aafc3507c13ce51edeaaf4e6
+    digest: 429c96292a11fead47679ef1232faac67b9b22bbf7f1e5b39539d80423b3703f
     name: taco-watcher
     urls:
-    - https:///jaesang.github.io/helm-repo/taco-watcher-0.1.0.tgz
+    - https://jaesang.github.io/helm-repo/taco-watcher-0.1.0.tgz
     version: 0.1.0
   thanos-config:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-08-06T15:24:12.817876042Z"
+    created: "2021-08-10T01:29:00.121991271Z"
     description: Chart for Thanos configuration
-    digest: c8908714edf4847e9c0a9dae89b0955c07c3fd40febb4e012e50f92c622b27c3
+    digest: 0bc8b7c523cbd1489de406adccac3bf7e0491450fb8b6faf7e66eed05292d1f4
     name: thanos-config
     urls:
-    - https:///jaesang.github.io/helm-repo/thanos-config-0.1.3.tgz
+    - https://jaesang.github.io/helm-repo/thanos-config-0.1.3.tgz
     version: 0.1.3
-generated: "2021-08-06T15:24:12.779884133Z"
+generated: "2021-08-10T01:29:00.084231359Z"
